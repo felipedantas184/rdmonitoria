@@ -12,10 +12,10 @@ const Sidebar = ({ isOpen, toggle }:any) => {
         </Close>
         <Logo href={'/'} ><Image src={'/logo_white.png'} alt='ADUFPI Logo' fill /></Logo>
         <Menu>
-          <Item><LinkS to='vantagens' smooth={true} duration={500} spy={true}>Vantagens</LinkS></Item>
-          <Item><LinkS to='vantagens' smooth={true} duration={500} spy={true}>Motivos</LinkS>s</Item>
-          <Item><LinkS to='vantagens' smooth={true} duration={500} spy={true}>Como Funciona</LinkS></Item>
-          <Item><LinkS to='vantagens' smooth={true} duration={500} spy={true}>Sobre Nós</LinkS></Item>
+          <Item onClick={toggle}><LinkS to='vantagens' smooth={true} duration={500} spy={true}>Vantagens</LinkS></Item>
+          <Item onClick={toggle}><LinkS to='vantagens' smooth={true} duration={500} spy={true}>Motivos</LinkS>s</Item>
+          <Item onClick={toggle}><LinkS to='vantagens' smooth={true} duration={500} spy={true}>Como Funciona</LinkS></Item>
+          <Item onClick={toggle}><LinkS to='vantagens' smooth={true} duration={500} spy={true}>Sobre Nós</LinkS></Item>
         </Menu>
         <SButton><a href="https://docs.google.com/forms/d/e/1FAIpQLSdBSQoyFAp7dk_R2MC-iv9MeyDJyt9fxBlOQc1MF9si4QZ-yw/viewform?usp=sf_link" rel="noreferrer" target="_blank">Fazer Inscrição</a></SButton>
       </Wrapper>

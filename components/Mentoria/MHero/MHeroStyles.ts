@@ -10,7 +10,7 @@ export const Wrapper = styled.div`
   max-width: 1080px;
 	margin-left: auto;
 	margin-right: auto;
-  padding: 84px 16px 24px 16px;
+  padding: 90px 16px 50px 16px;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
