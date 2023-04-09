@@ -87,8 +87,8 @@ export const BWrap = styled.div`
   gap: 8px;
 `
 export const SButton = styled.button`
-  background-color: #13131A;
-  color: #fff;
+  background-color: #F1F1F1;
+  color: #13131A;
   font-weight: 600;
   font-size: 16px;
   text-transform: capitalize;

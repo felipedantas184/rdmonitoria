@@ -8,12 +8,11 @@ const Navbar = ({toggle}:any) => {
       <Wrapper>
         <Logo href={'/'} ><Image src={'/logo_white.png'} alt='ADUFPI Logo' fill /></Logo>
         <Menu>
-          <IWrap><Item to='vantagens' smooth={true} duration={500} spy={true} href={'/'} ><>Vantagens</></Item></IWrap>
-          <IWrap><Item to='motivos' smooth={true} duration={500} spy={true} href={'/bookings'} ><>Motivos</></Item></IWrap>
-          <IWrap><Item to='como-funciona' smooth={true} duration={500} spy={true} href={'/profile'} ><>Como Funciona</></Item></IWrap>
-          <IWrap><Item to='sobre' smooth={true} duration={500} spy={true} href={'/profile'} ><>Sobre Nós</></Item></IWrap>
-          <IWrap><Item to='inscricao' smooth={true} duration={500} spy={true} href={'/profile'} ><>Fazer Inscrição</></Item></IWrap>
-        
+          <IWrap><Item to='vantagens' smooth={true} duration={500} spy={true}  ><>Vantagens</></Item></IWrap>
+          <IWrap><Item to='motivos' smooth={true} duration={500} spy={true}><>Motivos</></Item></IWrap>
+          <IWrap><Item to='como-funciona' smooth={true} duration={500} spy={true}><>Como Funciona</></Item></IWrap>
+          <IWrap><Item to='sobre' smooth={true} duration={500} spy={true}><>Sobre Nós</></Item></IWrap>
+          <IWrap><Item to='inscricao' smooth={true} duration={500} spy={true}><>Fazer Inscrição</></Item></IWrap>
         </Menu>
         <Mobile onClick={toggle}>
           <FaBars color="#C4C4C4" />
