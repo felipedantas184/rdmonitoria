@@ -31,7 +31,7 @@ const MOffer = () => {
               <ListItem><FaCheck size={12} color="#D1D1D1" style={{ marginRight: 6 }} />Resultado</ListItem>
             </OfferPricingList>
 
-            <ButtonLink href="https://docs.google.com/forms/d/e/1FAIpQLSdBSQoyFAp7dk_R2MC-iv9MeyDJyt9fxBlOQc1MF9si4QZ-yw/viewform?usp=sf_link" rel="noreferrer" target="_blank">
+            <ButtonLink href="https://docs.google.com/forms/d/e/1FAIpQLSeg_jazvnTMd0i7XI7XACSB7RS_KrMv-wUpK1PhmJWhAZeiBQ/viewform?usp=sf_link" rel="noreferrer" target="_blank">
               Fazer Inscrição Agora!
             </ButtonLink>
           </div>
