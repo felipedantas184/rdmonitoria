@@ -127,6 +127,7 @@ export const OfferPricingNumber = styled.span`
 export const OfferPricingNumberOlder = styled.span`
   font-weight: 300;
   font-family: 'Anton';
+	text-decoration: line-through;
 
   color: #A4A4A4;
 `
