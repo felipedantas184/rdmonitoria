@@ -3,7 +3,7 @@ import styled from "styled-components";
 import { Link as LinkS } from 'react-scroll'
 
 export const Container = styled.nav`
-  background-color: transparent;
+  background-color: #120530;
   font-family: 'Poppins', sans-serif;
 `
 export const Wrapper = styled.div`
