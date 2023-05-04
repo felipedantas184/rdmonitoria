@@ -28,11 +28,11 @@ const PDFViewer = ({lista}:any) => {
     <Section onContextMenu={(e) => e.preventDefault()} >
       <Wrapper>
         <Heading>
-          <Title>{lista.title}</Title>
-          <Subtitle>{lista.subject}</Subtitle>
+          <Title>{lista?.title}</Title>
+          <Subtitle>{lista?.subject}</Subtitle>
         </Heading>
         <DocWrapper>
-          <StyledDoc file={lista.pdfUrl} onLoadSuccess={onDocumentLoadSucess}>
+          <StyledDoc file={lista?.pdfUrl} onLoadSuccess={onDocumentLoadSucess}>
             <StyledPage width={580} scale={pageScale} renderAnnotationLayer={false} renderTextLayer={false} pageNumber={pageNumber} />
             <StyledPageMobile width={320 / 1.2} scale={pageScale} renderAnnotationLayer={false} renderTextLayer={false} pageNumber={pageNumber} />
           </StyledDoc>
