@@ -11,11 +11,11 @@ const Aula = ({aula}:any) => {
       <Wrapper>
         <VideoBox>
           <Heading>
-            <Title>{aula.title}</Title>
-            <Subtitle>{aula.subject}</Subtitle>
+            <Title>{aula?.title}</Title>
+            <Subtitle>{aula?.subject}</Subtitle>
           </Heading>
           <VideoWrapper>
-            <iframe src={aula.videoUrl} title="Encontro 09- MIX 03 _ Turma 02 Video" allow="autoplay; fullscreen" allowFullScreen width="100%" height="100%"></iframe>
+            <iframe src={aula?.videoUrl} title="Encontro 09- MIX 03 _ Turma 02 Video" allow="autoplay; fullscreen" allowFullScreen width="100%" height="100%"></iframe>
           </VideoWrapper>
         </VideoBox>
         <StatusBox>

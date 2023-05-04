@@ -29,12 +29,12 @@ const Curso = () => {
             <GTitle>Aulas Gravadas</GTitle>
             <Classes>
               {CursoData.map((item:any) => (
-                <Class key={item.id} >
+                <Class key={item?.id} >
                   <ClassHeading>
-                    <CTitle>{item.title}</CTitle>
-                    <CSubtitle>{item.subject}</CSubtitle>
+                    <CTitle>{item?.title}</CTitle>
+                    <CSubtitle>{item?.subject}</CSubtitle>
                   </ClassHeading>
-                  <Link href={`/aulas/${item.slug}`} ><FaPlayCircle size={32} color="#240046" /></Link>
+                  <Link href={`/aulas/${item?.slug}`} ><FaPlayCircle size={32} color="#240046" /></Link>
                 </Class>
               ))}
             </Classes>
@@ -43,12 +43,12 @@ const Curso = () => {
             <GTitle>Listas de Exercícios</GTitle>
             <Classes>
               {ListasData.map((item:any) => (
-                <Class key={item.id} >
+                <Class key={item?.id} >
                   <ClassHeading>
-                    <CTitle>{item.title}</CTitle>
-                    <CSubtitle>{item.subject}</CSubtitle>
+                    <CTitle>{item?.title}</CTitle>
+                    <CSubtitle>{item?.subject}</CSubtitle>
                   </ClassHeading>
-                  <Link href={`/listas/${item.slug}`} ><BsFiletypePdf size={32} color="#240046" /></Link>
+                  <Link href={`/listas/${item?.slug}`} ><BsFiletypePdf size={32} color="#240046" /></Link>
                 </Class>
               ))}
             </Classes>
