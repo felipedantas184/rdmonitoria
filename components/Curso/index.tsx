@@ -16,7 +16,6 @@ const Curso = () => {
             <ImageWrapper>
               <Image src={'/course_slug.png'} alt='Curso de Matemática' fill />
             </ImageWrapper>
-            <Button>Quero Fazer Parte!</Button>
           </PreviewBox>
         </First>
         <Second>

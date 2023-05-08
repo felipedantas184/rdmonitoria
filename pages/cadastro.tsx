@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Layout from '@/layout/Layout'
 import Curso from '@/components/Curso'
+import SignUp from '@/components/SignUp'
 
 export default function SignUpPage() {
   return (
@@ -20,9 +21,7 @@ export default function SignUpPage() {
         <meta property="twitter:description" content="Acompanhamento individual e preparação o Enem com a eficiência e qualidade de quem já trilhou esse caminho!"/>
         <meta property="twitter:image" content="/apple-touch-icon.png"/>
       </Head>
-      <Layout>
-        <Curso />
-      </Layout>
+      <SignUp />
     </>
   )
 }

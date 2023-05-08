@@ -50,10 +50,12 @@ export const PreviewBox = styled.div`
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  gap: 16px;
-  padding-bottom: 16px;
-  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
-`
+  transition: all 0.5s ease-in-out;
+	box-shadow: rgba(240, 46, 170, 0.2) -5px 5px;
+
+  &:hover {
+		box-shadow: rgba(240, 46, 170, 0.4) -5px 5px, rgba(240, 46, 170, 0.3) -10px 10px, rgba(240, 46, 170, 0.2) -15px 15px;
+	}`
 export const ImageWrapper = styled.div`
   position: relative;
   width: 100%;

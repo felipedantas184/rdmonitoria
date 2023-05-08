@@ -1,8 +1,19 @@
 import Head from 'next/head'
-import Layout from '@/layout/Layout'
-import Curso from '@/components/Curso'
+import SignIn from '@/components/SignIn'
+import { useRouter } from 'next/router'
+import { useAuth } from '@/context/AuthContext'
+import { useEffect } from "react"
 
 export default function LoginPage() {
+  const { user } = useAuth()
+  const router = useRouter()
+
+  useEffect(() => {
+    if (user) {
+      router.push('/dashboard')
+    }
+  }, [router, user])
+
   return (
     <>
       <Head>
@@ -20,9 +31,7 @@ export default function LoginPage() {
         <meta property="twitter:description" content="Acompanhamento individual e preparação o Enem com a eficiência e qualidade de quem já trilhou esse caminho!"/>
         <meta property="twitter:image" content="/apple-touch-icon.png"/>
       </Head>
-      <Layout>
-        <Curso />
-      </Layout>
+      <SignIn />
     </>
   )
 }
