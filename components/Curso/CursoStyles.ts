@@ -136,6 +136,18 @@ export const CSubtitle = styled.h3`
 export const GTitle = styled.h1`
   color: #000;
   font-size: 18px;
-  margin-bottom: 8px;
-  margin-left: 8px;
+`
+export const MoreButton = styled.button`
+  background-color: #120530;
+  padding: 8px 16px;
+  width: 50%;
+  border-radius: 8px;
+  color: #FFF;
+  font-size: 12px;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+  cursor: pointer;
+  outline: none;
+  border: 0;
+  -webkit-tap-highlight-color: transparent;
 `

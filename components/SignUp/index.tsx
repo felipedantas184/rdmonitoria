@@ -7,6 +7,7 @@ import { useState } from "react";
 import { doc, setDoc } from "firebase/firestore";
 import fireDB, { auth } from "@/firebase/initFirebase";
 import { updateProfile } from "firebase/auth";
+import { sendContactForm } from '../../lib/api'
 
 const SignUp = () => {
   const { signup } = useAuth()
@@ -26,6 +27,13 @@ const SignUp = () => {
           name: data.name,
           cpf: data.cpf,
           email: data.email,
+        })
+      }).then(function (docref) {
+        sendContactForm({
+          name: data.name,
+          email: data.email,
+          subject: 'Cadastro Realizado com sucesso!',
+          observations: 'O acesso ao curso pode levar algum tempo. Caso precise, entre em contato conosco.'
         })
       })
       if (auth.currentUser !== null) {

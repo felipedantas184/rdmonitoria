@@ -29,7 +29,7 @@ export const CursoData = [
     title: 'Encontro 02 - Resolução',
     subject: 'Porcentagem e Estatística',
     imgUrl: '/thumbs/thumb_02.png',
-    videoUrl: 'https://fast.wistia.net/embed/iframe/ny8ii5z7nv?videoFoam=true'
+    videoUrl: 'https://fast.wistia.net/embed/iframe/n1t7lkhu21?videoFoam=true'
   },
   {
     id: 5,
@@ -61,7 +61,7 @@ export const CursoData = [
     title: 'Encontro 04 - Resolução',
     subject: 'Gráficos, Tabelas, Sequências e Financeira',
     imgUrl: '/thumbs/thumb_04.png',
-    videoUrl: 'https://fast.wistia.net/embed/iframe/7knfwqo2fl?videoFoam=true'
+    videoUrl: 'https://fast.wistia.net/embed/iframe/mzikle1hv8?videoFoam=true'
   },
   {
     id: 9,
@@ -85,7 +85,7 @@ export const CursoData = [
     title: 'Encontro 06 - Teoria',
     subject: 'Análise Combinatória e Probabilidade',
     imgUrl: '/thumbs/thumb_06.png',
-    videoUrl: 'https://fast.wistia.net/embed/iframe/odz1su0wkf?videoFoam=true'
+    videoUrl: 'https://fast.wistia.net/embed/iframe/8k8uu4xs69?videoFoam=true'
   },
   {
     id: 12,
@@ -93,7 +93,7 @@ export const CursoData = [
     title: 'Encontro 06 - Resolução',
     subject: 'Análise Combinatória e Probabilidade',
     imgUrl: '/thumbs/thumb_06.png',
-    videoUrl: 'https://fast.wistia.net/embed/iframe/odz1su0wkf?videoFoam=true'
+    videoUrl: 'https://fast.wistia.net/embed/iframe/8k8uu4xs69?videoFoam=true'
   },
   {
     id: 13,
@@ -117,7 +117,7 @@ export const CursoData = [
     title: 'Encontro 08 - Teoria',
     subject: 'Mix de Questões 08',
     imgUrl: '/thumbs/thumb_08.png',
-    videoUrl: 'https://fast.wistia.net/embed/iframe/odz1su0wkf?videoFoam=true'
+    videoUrl: 'https://fast.wistia.net/embed/iframe/abnhnlnbdf?videoFoam=true'
   },
   {
     id: 16,
@@ -125,7 +125,7 @@ export const CursoData = [
     title: 'Encontro 08 - Resolução',
     subject: 'Mix de Questões 08',
     imgUrl: '/thumbs/thumb_08.png',
-    videoUrl: 'https://fast.wistia.net/embed/iframe/odz1su0wkf?videoFoam=true'
+    videoUrl: 'https://fast.wistia.net/embed/iframe/abnhnlnbdf?videoFoam=true'
   },
   {
     id: 17,
@@ -149,7 +149,7 @@ export const CursoData = [
     title: 'Encontro 10 - Teoria',
     subject: 'Mix de Questões 10',
     imgUrl: '/thumbs/thumb_10.png',
-    videoUrl: 'https://fast.wistia.net/embed/iframe/odz1su0wkf?videoFoam=true'
+    videoUrl: 'https://fast.wistia.net/embed/iframe/awledu0oho?videoFoam=true'
   },
   {
     id: 20,
@@ -157,7 +157,7 @@ export const CursoData = [
     title: 'Encontro 10 - Resolução',
     subject: 'Mix de Questões 10',
     imgUrl: '/thumbs/thumb_10.png',
-    videoUrl: 'https://fast.wistia.net/embed/iframe/odz1su0wkf?videoFoam=true'
+    videoUrl: 'https://fast.wistia.net/embed/iframe/awledu0oho?videoFoam=true'
   },
   {
     id: 21,
@@ -165,7 +165,7 @@ export const CursoData = [
     title: 'Encontro 11 - Teoria',
     subject: 'Mix de Questões 11',
     imgUrl: '/thumbs/thumb_11.png',
-    videoUrl: 'https://fast.wistia.net/embed/iframe/odz1su0wkf?videoFoam=true'
+    videoUrl: 'https://fast.wistia.net/embed/iframe/miqomiegro?videoFoam=true'
   },
   {
     id: 22,
@@ -173,7 +173,7 @@ export const CursoData = [
     title: 'Encontro 11 - Resolução',
     subject: 'Mix de Questões 11',
     imgUrl: '/thumbs/thumb_11.png',
-    videoUrl: 'https://fast.wistia.net/embed/iframe/odz1su0wkf?videoFoam=true'
+    videoUrl: 'https://fast.wistia.net/embed/iframe/miqomiegro?videoFoam=true'
   },
   {
     id: 23,
@@ -181,7 +181,7 @@ export const CursoData = [
     title: 'Encontro 12 - Teoria',
     subject: 'Mix de Questões 12',
     imgUrl: '/thumbs/thumb_12.png',
-    videoUrl: 'https://fast.wistia.net/embed/iframe/odz1su0wkf?videoFoam=true'
+    videoUrl: 'https://fast.wistia.net/embed/iframe/cpja3xqctl?videoFoam=true'
   },
   {
     id: 24,
@@ -189,7 +189,7 @@ export const CursoData = [
     title: 'Encontro 12 - Resolução',
     subject: 'Mix de Questões 12',
     imgUrl: '/thumbs/thumb_12.png',
-    videoUrl: 'https://fast.wistia.net/embed/iframe/odz1su0wkf?videoFoam=true'
+    videoUrl: 'https://fast.wistia.net/embed/iframe/cpja3xqctl?videoFoam=true'
   }
 ]
 
