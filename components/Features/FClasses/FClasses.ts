@@ -44,6 +44,7 @@ export const CoursesClassesRow = styled.div`
   }
 `
 export const CoursesClassesColumn1 = styled.div`
+  flex: 1;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -52,10 +53,13 @@ export const CoursesClassesColumn1 = styled.div`
   gap: 24px;
 
   @media screen and (max-width: 768px) {
+    width: 100%;
+    max-width: 320px;
     padding: 0;
   }
 `
 export const CoursesClassesColumn2 = styled.div`  
+  flex: 1;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -126,7 +130,7 @@ export const ImgWrap = styled.div`
 export const BoxWrap = styled.div`
   position: relative;
   width: 100%;
-  height: 100%;
+  height: 300px;
 
   display: flex;
   justify-content: center;
@@ -140,6 +144,9 @@ export const BoxWrap = styled.div`
   &:hover {
 		box-shadow: rgba(240, 46, 170, 0.4) -5px 5px, rgba(240, 46, 170, 0.3) -10px 10px, rgba(240, 46, 170, 0.2) -15px 15px;
 	}
+  @media screen and (max-width: 768px) {
+    height: 200px;
+  }
 `;
 
 
@@ -195,8 +202,8 @@ export const ButtonScorll = styled(LinkS)`
 	align-items: center;
 	
 	padding: 14px 20px;
-	background-color: #FFF;
-	color: #000;
+	background-color: #000;
+	color: #FFF;
 
 	font-family: 'Anton';
 	font-size: 18px;

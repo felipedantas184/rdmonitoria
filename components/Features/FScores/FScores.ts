@@ -204,3 +204,12 @@ export const ButtonScorll = styled(LinkS)`
 		margin-right: auto;
 	}
 `
+export const ImageWrapper = styled.div`
+  position: relative;
+  width: 100%;
+  height: 600px;
+
+  @media screen and (max-width: 768px) {
+    height: 550px;
+  }
+` 

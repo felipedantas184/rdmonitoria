@@ -8,7 +8,7 @@ const FScores = () => {
         <CoursesScoresHeading>Motivos</CoursesScoresHeading>
         <CoursesScoresRow>
           <CoursesScoresColumn2 style={{ display: 'flex', justifyContent: "flex-start" }}>
-            <Image src='/features/ScoresRight.png' alt="" width={400} height={690} />
+            <Image src='/features/ScoresRight.png' alt="" width={335} height={595} />
           </CoursesScoresColumn2>
           <CoursesScoresColumn1 style={{ height: '100%', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start' }}>
             <TextWrapper>
@@ -42,7 +42,7 @@ const FScores = () => {
             </ButtonScorll>
           </CoursesScoresColumn2>
           <CoursesScoresColumn1 style={{ display: 'flex', justifyContent: "flex-end" }} >
-            <Image src='/features/scoresThumb.png' alt="" width={335} height={595} />
+            <Image src='/features/scoresThumb.png' alt="" width={300} height={540} />
           </CoursesScoresColumn1>
         </CoursesScoresRow>
       </CoursesScoresWrapper>

@@ -195,6 +195,7 @@ export const OfferPricingList = styled.ul`
 `
 export const ListItem = styled.li`
 	text-align: left;
+	font-size: 14px;
 `
 export const Divider = styled.div`
 	@media screen and (max-width: 768px) {

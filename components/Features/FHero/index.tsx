@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { ButtonScorll, ButtonWrapper, GridWrapper, HalfWrapper, Heading, HeroContainer, ImageWrapper, Subtitle, TextWrapper } from "./FHeroStyles";
+import { ButtonScorll, ButtonScorllBlack, ButtonWrapper, GridWrapper, HalfWrapper, Heading, HeroContainer, ImageWrapper, Subtitle, TextWrapper } from "./FHeroStyles";
 
 const FHero = () => {
   return (
@@ -7,7 +7,7 @@ const FHero = () => {
       <GridWrapper>
         <HalfWrapper>
           <TextWrapper>
-            <Heading>MATEMÁTICA <br />ATIVA MEUPROF</Heading>
+            <Heading>MATEMÁTICA <br />ATIVA<span style={{color: '#D4D4D4'}} > | ENEM</span></Heading>
             <Subtitle>Estude matemática para o Enem de forma correta e fique mais próximo da sua aprovação!</Subtitle>
           </TextWrapper>
           <ButtonWrapper>
@@ -15,10 +15,10 @@ const FHero = () => {
               smooth={true} duration={500} spy={true} offset={20}>
               FAZER INSCRIÇÃO!
             </ButtonScorll>
-            <ButtonScorll to='coursesPerks'
+            <ButtonScorllBlack to='coursesPerks'
               smooth={true} duration={1000} spy={true} offset={0}>
               CONHECER MAIS
-            </ButtonScorll>
+            </ButtonScorllBlack>
           </ButtonWrapper>
         </HalfWrapper>
         <HalfWrapper>

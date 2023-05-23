@@ -18,7 +18,6 @@ export const HeroContainer = styled.section`
 export const GridWrapper = styled.div`
 	max-width: 1100px;
 	height: auto;
-  min-height: 100vh;
 	margin-left: auto;
 	margin-right: auto;
   padding: 100px 16px 75px 16px;
@@ -98,6 +97,37 @@ export const ButtonScorll = styled(LinkS)`
 	padding: 14px 20px;
 	background-color: #FFF;
 	color: #000;
+
+	font-family: 'Anton';
+	font-size: 18px;
+	text-transform: uppercase;
+
+	border-radius: 6px;
+	user-select: none;
+	-webkit-tap-highlight-color: transparent;
+	cursor: pointer;
+	transition: all 0.5s ease-in-out;
+	box-shadow: rgba(240, 46, 170, 0.2) -5px 5px;
+
+	&:hover {
+		box-shadow: rgba(240, 46, 170, 0.4) -5px 5px, rgba(240, 46, 170, 0.3) -10px 10px, rgba(240, 46, 170, 0.2) -15px 15px;
+	}
+
+	@media screen and (min-width: 768px) {
+		max-width: 350px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+`
+export const ButtonScorllBlack = styled(LinkS)`
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+	padding: 14px 20px;
+	background-color: #000;
+	color: #FFF;
 
 	font-family: 'Anton';
 	font-size: 18px;

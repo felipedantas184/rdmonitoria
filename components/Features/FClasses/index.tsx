@@ -9,7 +9,7 @@ const FClasses = () => {
 						<CoursesClassesRow>
 							<CoursesClassesColumn1>
 								<BoxWrap>
-									<Image src='/features/cronogramaI.png' alt="" width={630} height={360} />
+									<Image src='/features/cronogramaI.png' alt="" fill />
 								</BoxWrap>
 							</CoursesClassesColumn1>
 							<CoursesClassesColumn2 style={{alignSelf: 'flex-start'}} >
@@ -23,7 +23,7 @@ const FClasses = () => {
 						<CoursesClassesRow style={{marginTop: 40}} >
 							<CoursesClassesColumn1>
 								<BoxWrap>
-									<Image src='/features/cronogramaII.png' alt="" width={630} height={360} />
+									<Image src='/features/cronogramaII.png' alt="" fill />
 								</BoxWrap>		
 							</CoursesClassesColumn1>
 							<CoursesClassesColumn2 style={{alignSelf: 'flex-start'}} >

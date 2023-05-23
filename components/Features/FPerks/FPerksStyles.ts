@@ -103,8 +103,8 @@ export const ButtonScorll = styled(LinkS)`
 	align-items: center;
 	
 	padding: 14px 20px;
-	background-color: #FFF;
-	color: #000;
+	background-color: #000;
+	color: #FFF;
 
 	font-family: 'Anton';
 	font-size: 18px;
