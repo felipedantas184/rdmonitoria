@@ -3,7 +3,7 @@ import { BoxWrap, ButtonScorll, CoursesClassesColumn1, CoursesClassesColumn2, Co
 
 const FClasses = () => {
   return ( 
-    <CoursesClassesContainer id="CoursesClasses">
+    <CoursesClassesContainer id="como-funciona">
 					<CoursesClassesWrapper>
 						<CoursesClassesHeading>Cronograma</CoursesClassesHeading>
 						<CoursesClassesRow>
@@ -33,7 +33,7 @@ const FClasses = () => {
 								</TextWrapper>
 							</CoursesClassesColumn2>
 						</CoursesClassesRow>		
-						<ButtonScorll to='offer' style={{marginTop: 32}}
+						<ButtonScorll to='inscricao' style={{marginTop: 32}}
 							smooth={true} duration={500} spy={true} offset={20}>
 							Fazer Inscrição Agora!
 						</ButtonScorll>			

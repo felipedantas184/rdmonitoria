@@ -11,7 +11,7 @@ const MOffer = () => {
         </Heading>
         <OWrapper>
           <div>
-            <OTitle>Mentoria<br />ENEM 2023</OTitle>
+            <OTitle>MENTORIA<br />ENEM 2023</OTitle>
             <OSubtitle>Encontre o melhor caminho e organize seus estudos de maneira eficiente para a Enem 2022!</OSubtitle>
           </div>
 

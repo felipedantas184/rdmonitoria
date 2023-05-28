@@ -4,7 +4,7 @@ import { ButtonTransparent, SbjWrap } from "@/components/Mentoria/MAbout/MAboutS
 
 const FAbout = () => {
   return ( 
-    <CoursesAboutContainer id="CoursesAbout">
+    <CoursesAboutContainer id="sobre">
 					<CoursesAboutWrapper>
 						<CoursesAboutHeading>Sobre Nós</CoursesAboutHeading>
 						<CoursesAboutRow>
@@ -24,7 +24,7 @@ const FAbout = () => {
 									</SbjWrap>
 									<Subtitle>Me chamo André e fui aprovado para Medicina na UFPI e na UESPI. Atualmente ajudo alunos a conquistarem sua aprovação com a nota do Enem!</Subtitle>
 								</TextWrapper>
-								<ButtonScorll to='offer'
+								<ButtonScorll to='inscricao'
 									smooth={true} duration={500} spy={true} offset={20}>
 									Fazer Inscrição Agora!
 								</ButtonScorll>
@@ -42,7 +42,7 @@ const FAbout = () => {
 									</SbjWrap>
 									<Subtitle>Me chamo Felipe e sou acadêmico de Medicina pela UFPI. Eu e o André nos juntamos para ajudar cada vez mais estudantes a conquistarem uma vaga na Universidade!</Subtitle>
 								</TextWrapper>
-								<ButtonScorll to='offer'
+								<ButtonScorll to='inscricao'
 									smooth={true} duration={500} spy={true} offset={20}>
 									Fazer Inscrição Agora!
 								</ButtonScorll>

@@ -2,7 +2,7 @@ import styled from "styled-components";
 import { Link as LinkS } from "react-scroll";
 
 export const Container = styled.section`
-  background-color: #F1F1F1;
+  background-color: #FFF;
   font-family: 'Poppins', sans-serif;
 `
 export const Wrapper = styled.div`
@@ -64,12 +64,14 @@ export const PerkCard = styled.div`
 export const PerkTitle = styled.p`
   color: #13131A;
   font-size: 14px;
-  font-weight: 500;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-top: 4px;
 `
 export const PerkResume = styled.p`
-  color: #13131A;
+  color: #33333A;
   font-size: 14px;
-  font-weight: 400;
+  font-weight: 500;
 `
 
 export const BScroll = styled(LinkS)`

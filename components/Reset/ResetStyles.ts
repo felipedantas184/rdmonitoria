@@ -1,4 +1,3 @@
-import Link from "next/link";
 import styled from "styled-components";
 
 export const Container = styled.div`
@@ -64,9 +63,5 @@ export const Input = styled.input`
   border-radius: 8px;
 
   font-family: "Poppins", sans-serif;
-  font-size: 14px;
-`
-export const FOption = styled(Link)`
-  color: #22222A;
   font-size: 14px;
 `

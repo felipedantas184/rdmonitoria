@@ -3,7 +3,7 @@ import { ButtonScorll, CoursesScoresColumn1, CoursesScoresColumn2, CoursesScores
 
 const FScores = () => {
   return (
-    <CoursesScoresContainer id="CoursesScores">
+    <CoursesScoresContainer id="motivos">
       <CoursesScoresWrapper>
         <CoursesScoresHeading>Motivos</CoursesScoresHeading>
         <CoursesScoresRow>
@@ -19,7 +19,7 @@ const FScores = () => {
               <Heading>Planejamento<br />dos Estudos</Heading>
               <Subtitle>Não fique mais perdido em matemática e estude com um planejamento inteligente e que funciona para aumentar sua nota no Enem!</Subtitle>
             </TextWrapper>
-            <ButtonScorll to='offer' style={{ marginTop: 0 }}
+            <ButtonScorll to='inscricao' style={{ marginTop: 0 }}
               smooth={true} duration={500} spy={true} offset={20}>
               Fazer Inscrição Agora!
             </ButtonScorll>
@@ -36,7 +36,7 @@ const FScores = () => {
               <Heading>Mais Perto<br /> Da Aprovação</Heading>
               <Subtitle>Sem dúvidas matemática é uma das chaves para a aprovação! Não deixe essa chance escapar e se prepare da melhor forma para essa prova!</Subtitle>
             </TextWrapper>
-            <ButtonScorll to='offer' style={{ marginTop: 0 }}
+            <ButtonScorll to='inscricao' style={{ marginTop: 0 }}
               smooth={true} duration={500} spy={true} offset={20}>
               Fazer Inscrição Agora!
             </ButtonScorll>

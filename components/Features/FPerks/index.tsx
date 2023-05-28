@@ -4,7 +4,7 @@ import { ButtonScorll, CoursesPerksCard, CoursesPerksContainer, CoursesPerksH2, 
 
 const FPerks = () => {
   return ( 
-    <CoursesPerksContainer id="coursesPerks">
+    <CoursesPerksContainer id="vantagens">
 			<CoursesPerksWrapper>
 				<CoursesPerksTitle>Vantagens</CoursesPerksTitle>
 				<CoursesPerksRow>
@@ -18,7 +18,7 @@ const FPerks = () => {
 						)
 					})}
 				</CoursesPerksRow>
-				<ButtonScorll to='offer' style={{marginTop: 48}}
+				<ButtonScorll to='inscricao' style={{marginTop: 48}}
 					smooth={true} duration={500} spy={true} offset={20}>
 					<BsChevronDoubleDown size={16} color="#F1F2F3" style={{marginRight: 16}} />
 					Quero Participar

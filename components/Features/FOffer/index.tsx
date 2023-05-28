@@ -3,7 +3,7 @@ import { ButtonLink, GridWrapper, HalfUnicWrapper, ListItem, OfferContainer, Off
 
 const FOffer = () => {
   return ( 
-    <OfferContainer id="offer" >
+    <OfferContainer id="inscricao" >
 			<GridWrapper>
 				<HalfUnicWrapper>
 					<Topline>VAGAS LIMITADAS!</Topline>

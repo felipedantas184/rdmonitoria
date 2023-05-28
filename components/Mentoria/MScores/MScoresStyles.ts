@@ -12,6 +12,7 @@ interface Props {
 export const Container = styled.section`
   background-color: #F1F1F1;
   font-family: 'Poppins', sans-serif;
+  border-radius: 50px 0 50px 0;
 `
 export const Wrapper = styled.div`
   max-width: 1080px;

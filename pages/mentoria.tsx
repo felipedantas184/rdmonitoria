@@ -1,11 +1,12 @@
 import Head from 'next/head'
-import Home from '@/components/Home'
+import Layout from '@/layout/Layout'
+import Mentoria from '@/components/Mentoria'
 
-export default function HomePage() {
+export default function MentoriaPage() {
   return (
     <>
       <Head>
-        <title>RD Monitoria | Página Inicial</title>
+        <title>Mentoria ENEM | RD Monitoria</title>
         <meta name="description" content="Acompanhamento individual e preparação o Enem com a eficiência e qualidade de quem já trilhou esse caminho!" />
         <meta name="viewport" content="width=device-width,initial-scale=1.0" />
         
@@ -19,7 +20,9 @@ export default function HomePage() {
         <meta property="twitter:description" content="Acompanhamento individual e preparação o Enem com a eficiência e qualidade de quem já trilhou esse caminho!"/>
         <meta property="twitter:image" content="/apple-touch-icon.png"/>
       </Head>
-      <Home />
+      <Layout>
+        <Mentoria />
+      </Layout>
     </>
   )
 }

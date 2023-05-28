@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { BScroll, BWrapper, Container, Heading, ImageWrapper, Subtitle, Title, Wrapper } from "./MHeroStyles";
+import { BScroll, BWrapper, ButtonScorll, Container, Heading, ImageWrapper, Subtitle, Title, Wrapper } from "./MHeroStyles";
 
 const MHero = () => {
   return ( 
@@ -9,9 +9,9 @@ const MHero = () => {
           <Title>MENTORIA ENEM<br />RD MONITORIA</Title>
           <Subtitle>Acompanhamento individual e preparação o Enem com a eficiência e qualidade de quem já trilhou esse caminho!</Subtitle>
           <BWrapper>
-          <BScroll to='inscricao' smooth={true} duration={1000} spy={true} offset={0} >
+          <ButtonScorll to='inscricao' smooth={true} duration={1000} spy={true} offset={0} >
             Quero Participar!
-          </BScroll>
+          </ButtonScorll>
           <BScroll to='vantagens' smooth={true} duration={1000} spy={true} offset={0} >
             Conhecer Mais
           </BScroll>

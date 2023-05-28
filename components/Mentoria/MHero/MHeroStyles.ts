@@ -5,6 +5,11 @@ export const Container = styled.section`
   background: #411551;
 	background: linear-gradient(135deg, rgba(2,0,36,1) 0%, rgba(65,21,81,1) 75%);
 	margin-top: -60px;
+	border-bottom-right-radius: 150px;
+
+	@media screen and (max-width: 768px) {
+    border-bottom-right-radius: 50px;
+  }
 `
 export const Wrapper = styled.div`
   max-width: 1080px;
@@ -100,5 +105,36 @@ export const BScroll = styled(LinkS)`
 
   &:hover {
 		box-shadow: rgba(240, 46, 170, 0.4) -5px 5px, rgba(240, 46, 170, 0.3) -10px 10px, rgba(240, 46, 170, 0.2) -15px 15px;
+	}
+`
+export const ButtonScorll = styled(LinkS)`
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+	padding: 14px 20px;
+	background-color: #FFF;
+	color: #000;
+
+	font-family: 'Anton';
+	font-size: 18px;
+	text-transform: uppercase;
+
+	border-radius: 6px;
+	user-select: none;
+	-webkit-tap-highlight-color: transparent;
+	cursor: pointer;
+	transition: all 0.5s ease-in-out;
+	box-shadow: rgba(240, 46, 170, 0.2) -5px 5px;
+
+	&:hover {
+		box-shadow: rgba(240, 46, 170, 0.4) -5px 5px, rgba(240, 46, 170, 0.3) -10px 10px, rgba(240, 46, 170, 0.2) -15px 15px;
+	}
+
+	@media screen and (min-width: 768px) {
+		max-width: 350px;
+		margin-left: auto;
+		margin-right: auto;
 	}
 `

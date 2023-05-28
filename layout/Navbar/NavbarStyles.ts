@@ -1,5 +1,5 @@
-import Link from "next/link";
 import styled from "styled-components";
+import Link from "next/link";
 import { Link as LinkS } from 'react-scroll'
 
 export const Container = styled.nav`
@@ -63,19 +63,49 @@ export const Item = styled(LinkS)`
   cursor: pointer;
 	transition: all 0.2s ease-in-out;
 `
-export const Logout = styled.button`
-  border: none;
-  height: 60px;
-  padding: 0 1rem;
+export const Login = styled(Link)`
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  border: 2px solid #F1F1F1;
+
+  color: #F1F1F1;
   font-size: 14px;
-  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  
   display: flex;
   flex-direction: row;
   align-items: center;	
   gap: 8px;
   
   cursor: pointer;
-	transition: all 0.2s ease-in-out;
+	transition: all 0.5s ease-in-out;
+
+  &:hover {
+    background-color: #F1F1F1;
+    color: #000;
+  }
+`
+export const Logout = styled.div`
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  border: 2px solid #F1F1F1;
+
+  color: #F1F1F1;
+  font-size: 14px;
+  font-weight: 500;
+  
+  display: flex;
+  flex-direction: row;
+  align-items: center;	
+  gap: 8px;
+  
+  cursor: pointer;
+	transition: all 0.5s ease-in-out;
+
+  &:hover {
+    background-color: #F1F1F1;
+    color: #000;
+  }
 `
 export const Mobile = styled.div`
   cursor: pointer;

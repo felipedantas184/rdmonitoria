@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { Button } from "../UsefulComponents";
-import { Container, FGroup, Form, Input, Label, Logo, Title, Wrapper } from "./SignInStyles";
+import { Container, FGroup, FOption, Form, Input, Label, Logo, Title, Wrapper } from "./SignInStyles";
 import { useState } from "react";
 import { useAuth } from "@/context/AuthContext";
 import { useRouter } from "next/router";
@@ -17,7 +17,7 @@ const SignIn = () => {
     e.preventDefault()
     try {
       await login(data.email, data.password)
-      router.push('/')
+      router.push('/dashboard')
     } catch (err) {
       console.log(err)
       alert('Email ou senha incorretos!')
@@ -55,6 +55,7 @@ const SignIn = () => {
             />
           </FGroup>
           <Button type="submit" >Entrar</Button>
+          <FOption href={'/reset'} >Esqueci minha senha</FOption>
         </Form>
       </Wrapper>
     </Container>

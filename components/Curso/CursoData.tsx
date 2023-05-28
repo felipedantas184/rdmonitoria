@@ -93,7 +93,7 @@ export const CursoData = [
     title: 'Encontro 06 - Resolução',
     subject: 'Análise Combinatória e Probabilidade',
     imgUrl: '/thumbs/thumb_06.png',
-    videoUrl: 'https://fast.wistia.net/embed/iframe/8k8uu4xs69?videoFoam=true'
+    videoUrl: 'https://fast.wistia.net/embed/iframe/adudk2ci9v?videoFoam=true'
   },
   {
     id: 13,
@@ -125,7 +125,7 @@ export const CursoData = [
     title: 'Encontro 08 - Resolução',
     subject: 'Mix de Questões 08',
     imgUrl: '/thumbs/thumb_08.png',
-    videoUrl: 'https://fast.wistia.net/embed/iframe/abnhnlnbdf?videoFoam=true'
+    videoUrl: 'https://fast.wistia.net/embed/iframe/gtekrakvgs?videoFoam=true'
   },
   {
     id: 17,
@@ -157,7 +157,7 @@ export const CursoData = [
     title: 'Encontro 10 - Resolução',
     subject: 'Mix de Questões 10',
     imgUrl: '/thumbs/thumb_10.png',
-    videoUrl: 'https://fast.wistia.net/embed/iframe/awledu0oho?videoFoam=true'
+    videoUrl: 'https://fast.wistia.net/embed/iframe/bd6jalmzbv?videoFoam=true'
   },
   {
     id: 21,
@@ -189,7 +189,7 @@ export const CursoData = [
     title: 'Encontro 12 - Resolução',
     subject: 'Mix de Questões 12',
     imgUrl: '/thumbs/thumb_12.png',
-    videoUrl: 'https://fast.wistia.net/embed/iframe/cpja3xqctl?videoFoam=true'
+    videoUrl: 'https://fast.wistia.net/embed/iframe/kaw99cznlo?videoFoam=true'
   }
 ]
 
@@ -240,42 +240,42 @@ export const ListasData = [
     id: 7,
     slug: 'encontro-07',
     title: 'Encontro 07',
-    subject: 'Mix de Questões 07',
+    subject: 'Mix de Questões 01',
     pdfUrl: '/lists/encontro_07.pdf',
   },
   {
     id: 8,
     slug: 'encontro-08',
     title: 'Encontro 08',
-    subject: 'Mix de Questões 08',
+    subject: 'Mix de Questões 02',
     pdfUrl: '/lists/encontro_08.pdf',
   },
   {
     id: 9,
     slug: 'encontro-09',
     title: 'Encontro 09',
-    subject: 'Mix de Questões 09',
+    subject: 'Mix de Questões 03',
     pdfUrl: '/lists/encontro_09.pdf',
   },
   {
     id: 10,
     slug: 'encontro-10',
     title: 'Encontro 10',
-    subject: 'Mix de Questões 10',
+    subject: 'Mix de Questões 04',
     pdfUrl: '/lists/encontro_10.pdf',
   },
   {
     id: 11,
     slug: 'encontro-11',
     title: 'Encontro 11',
-    subject: 'Mix de Questões 11',
+    subject: 'Mix de Questões 05',
     pdfUrl: '/lists/encontro_11.pdf',
   },
   {
     id: 12,
     slug: 'encontro-12',
     title: 'Encontro 12',
-    subject: 'Mix de Questões 12',
+    subject: 'Mix de Questões 06',
     pdfUrl: '/lists/encontro_12.pdf',
   }
 ]

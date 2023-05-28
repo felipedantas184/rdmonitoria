@@ -11,11 +11,11 @@ const FHero = () => {
             <Subtitle>Estude matemática para o Enem de forma correta e fique mais próximo da sua aprovação!</Subtitle>
           </TextWrapper>
           <ButtonWrapper>
-            <ButtonScorll to='offer'
+            <ButtonScorll to='inscricao'
               smooth={true} duration={500} spy={true} offset={20}>
               FAZER INSCRIÇÃO!
             </ButtonScorll>
-            <ButtonScorllBlack to='coursesPerks'
+            <ButtonScorllBlack to='vantagens'
               smooth={true} duration={1000} spy={true} offset={0}>
               CONHECER MAIS
             </ButtonScorllBlack>
