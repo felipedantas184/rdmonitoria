@@ -108,7 +108,7 @@ const Curso = () => {
                       <CTitle>{item?.title}</CTitle>
                       <CSubtitle>{item?.subject}</CSubtitle>
                     </ClassHeading>
-                    <Link href={`/listas/${item?.slug}`} ><BsFiletypePdf size={32} color="#240046" /></Link>
+                    <Link href={`/slides/${item?.slug}`} ><BsFiletypePdf size={32} color="#240046" /></Link>
                   </Class>
                 ))}
                 <MoreButton onClick={() => setShowAllMaterials(!showAllMaterials)}>Ver Mais</MoreButton>
