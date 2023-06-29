@@ -13,7 +13,7 @@ export const CursoData = [
     title: 'Encontro 01 - Resolução',
     subject: 'Grandezas Proporcionais e Aritmética Básica',
     imgUrl: '/thumbs/thumb_01.png',
-    videoUrl: 'https://fast.wistia.net/embed/iframe/odz1su0wkf?videoFoam=true'
+    videoUrl: 'https://fast.wistia.net/embed/iframe/jgng07mhqb?videoFoam=true'
   },
   {
     id: 3,
@@ -45,7 +45,7 @@ export const CursoData = [
     title: 'Encontro 03 - Resolução',
     subject: 'Equações Elementares e Funções',
     imgUrl: '/thumbs/thumb_03.png',
-    videoUrl: 'https://fast.wistia.net/embed/iframe/cs0okqdqhk?videoFoam=true'
+    videoUrl: 'https://fast.wistia.net/embed/iframe/r347umgul9?videoFoam=true'
   },
   {
     id: 7,
@@ -77,7 +77,7 @@ export const CursoData = [
     title: 'Encontro 05 - Resolução',
     subject: 'Geometria Plana e Espacial',
     imgUrl: '/thumbs/thumb_05.png',
-    videoUrl: 'https://fast.wistia.net/embed/iframe/h6nqfjuxkj?videoFoam=true'
+    videoUrl: 'https://fast.wistia.net/embed/iframe/1u35zv6qm4?videoFoam=true'
   },
   {
     id: 11,
@@ -109,7 +109,7 @@ export const CursoData = [
     title: 'Encontro 07 - Resolução',
     subject: 'Mix de Questões 07',
     imgUrl: '/thumbs/thumb_07.png',
-    videoUrl: 'https://fast.wistia.net/embed/iframe/j0hqzcfqiw?videoFoam=true'
+    videoUrl: 'https://fast.wistia.net/embed/iframe/egmeh88qhq?videoFoam=true'
   },
   {
     id: 15,
@@ -141,7 +141,7 @@ export const CursoData = [
     title: 'Encontro 09 - Resolução',
     subject: 'Mix de Questões 09',
     imgUrl: '/thumbs/thumb_09.png',
-    videoUrl: 'https://fast.wistia.net/embed/iframe/odz1su0wkf?videoFoam=true'
+    videoUrl: 'https://fast.wistia.net/embed/iframe/pfbqjexpbz?videoFoam=true'
   },
   {
     id: 19,
@@ -173,7 +173,7 @@ export const CursoData = [
     title: 'Encontro 11 - Resolução',
     subject: 'Mix de Questões 11',
     imgUrl: '/thumbs/thumb_11.png',
-    videoUrl: 'https://fast.wistia.net/embed/iframe/miqomiegro?videoFoam=true'
+    videoUrl: 'https://fast.wistia.net/embed/iframe/iht5lxykj5?videoFoam=true'
   },
   {
     id: 23,
