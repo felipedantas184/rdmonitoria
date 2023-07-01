@@ -4,7 +4,6 @@ import { FaPlayCircle, FaVideo } from "react-icons/fa";
 import Link from "next/link";
 import { CursoData, ListasData } from "./CursoData";
 import { BsFiletypePdf, BsJournalBookmarkFill, BsPencilSquare } from "react-icons/bs";
-import { CgChevronDoubleDownO } from 'react-icons/cg'
 import { useState, useEffect } from "react";
 import { useRouter } from "next/router";
 
@@ -163,7 +162,7 @@ const Curso = ({ access }: any) => {
                         <CTitle>{item?.title}</CTitle>
                         <CSubtitle>{item?.subject}</CSubtitle>
                       </ClassHeading>
-                      <Link href={`/listas/${item?.slug}`} ><BsFiletypePdf size={32} color="#240046" /></Link>
+                      <Link href={`/resolucoes/${item?.slug}`} ><BsFiletypePdf size={32} color="#240046" /></Link>
                     </Class>
                   ))}
                   <MoreButton onClick={() => setShowAllMaterials(!showAllMaterials)}>Ver Menos</MoreButton>
