@@ -18,7 +18,7 @@ const Sidebar = ({ isOpen, toggle }:any) => {
           <Item><LinkS onClick={toggle} to='como-funciona' smooth={true} duration={500} spy={true}>Como Funciona</LinkS></Item>
           <Item><LinkS onClick={toggle} to='sobre' smooth={true} duration={500} spy={true}>Sobre Nós</LinkS></Item>
         </Menu>
-        <SButton onClick={toggle}><Link href={'/login'}>Entrar</Link></SButton>
+        <SButton onClick={toggle}><Link href={'/dashboard'}>Área do Aluno</Link></SButton>
       </Wrapper>
     </Container>
   );

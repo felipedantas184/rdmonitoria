@@ -30,6 +30,9 @@ const Home = () => {
           </Option>
         </Menu>
         <SubMenu>
+          <Button href={'/dashboard'} style={{minWidth: 200, backgroundColor: '#120530'}} >Área do Aluno</Button>
+        </SubMenu>
+        <SubMenu>
           <SIcon><ELink rel="noreferrer" href='https://www.instagram.com/rdmonitoria/' target='_blank' arial-label='Instagram' ><FaInstagram /></ELink></SIcon>
           <SIcon><ELink rel="noreferrer" href='mailto:rdmonitoria.contato@gmail.com' target='_blank' arial-label='Email' ><FaEnvelope /></ELink></SIcon>
         </SubMenu>
