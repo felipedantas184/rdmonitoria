@@ -27,6 +27,9 @@ const SignUp = () => {
           name: data.name,
           cpf: data.cpf,
           email: data.email,
+          course: 'denied',
+          lists: 'denied',
+          admin: false,
         })
       }).then(function (docref) {
         sendContactForm({

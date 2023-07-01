@@ -1,16 +1,18 @@
 import Image from "next/image";
 import { Card, Cards, CourseClass, CourseTitle, DText, Description, Details, Fixed, Heading, ImgWrap, Section, StatusBox, Subtitle, Title, VideoBox, VideoWrapper, Wrapper } from "./AulaStyles";
 import { CursoData } from "../Curso/CursoData";
-import { FaPlayCircle } from "react-icons/fa";
+import { FaArrowLeft, FaPlayCircle } from "react-icons/fa";
 import Link from "next/link";
 
-const Aula = ({aula}:any) => {
+const Aula = ({aula}:any, {access}:any) => {
+  console.log(access)
   return (
     <Section>
       <Fixed />
       <Wrapper>
         <VideoBox>
           <Heading>
+            <DText><FaArrowLeft size={14} color="#13131A" /> <Link href={"/curso"}> Voltar - Página do Curso</Link></DText>
             <Title>{aula?.title}</Title>
             <Subtitle>{aula?.subject}</Subtitle>
           </Heading>

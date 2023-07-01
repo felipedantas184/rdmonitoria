@@ -366,3 +366,90 @@ export const SlidesData = [
     pdfUrl: '/slides/slides_encontro_12.pdf',
   }
 ]
+
+export const ResolucoesData = [
+  {
+    id: 1,
+    slug: 'encontro-01',
+    title: 'Encontro 01',
+    subject: 'Grandezas Proporcionais e Aritmética Básica',
+    pdfUrl: '/resolucoes/resolucao_encontro_01.pdf',
+  },
+  {
+    id: 2,
+    slug: 'encontro-02',
+    title: 'Encontro 02',
+    subject: 'Porcentagem e Estatística',
+    pdfUrl: '/resolucoes/resolucao_encontro_02.pdf',
+  },
+  {
+    id: 3,
+    slug: 'encontro-03',
+    title: 'Encontro 03',
+    subject: 'Equações Elementares e Funções',
+    pdfUrl: '/resolucoes/resolucao_encontro_03.pdf',
+  },
+  {
+    id: 4,
+    slug: 'encontro-04',
+    title: 'Encontro 04',
+    subject: 'Gráficos, Tabelas, Sequências e Financeira',
+    pdfUrl: '/resolucoes/resolucao_encontro_04.pdf',
+  },
+  {
+    id: 5,
+    slug: 'encontro-05',
+    title: 'Encontro 05',
+    subject: 'Geometria Plana e Espacial',
+    pdfUrl: '/resolucoes/resolucao_encontro_05.pdf',
+  },
+  {
+    id: 6,
+    slug: 'encontro-06',
+    title: 'Encontro 06',
+    subject: 'Análise Combinatória e Probabilidade',
+    pdfUrl: '/resolucoes/resolucao_encontro_06.pdf',
+  },
+  {
+    id: 7,
+    slug: 'encontro-07',
+    title: 'Encontro 07',
+    subject: 'Mix de Questões 01',
+    pdfUrl: '/resolucoes/resolucao_encontro_07.pdf',
+  },
+  {
+    id: 8,
+    slug: 'encontro-08',
+    title: 'Encontro 08',
+    subject: 'Mix de Questões 02',
+    pdfUrl: '/resolucoes/resolucao_encontro_08.pdf',
+  },
+  {
+    id: 9,
+    slug: 'encontro-09',
+    title: 'Encontro 09',
+    subject: 'Mix de Questões 03',
+    pdfUrl: '/resolucoes/resolucao_encontro_09.pdf',
+  },
+  {
+    id: 10,
+    slug: 'encontro-10',
+    title: 'Encontro 10',
+    subject: 'Mix de Questões 04',
+    pdfUrl: '/resolucoes/resolucao_encontro_10.pdf',
+  },
+  {
+    id: 11,
+    slug: 'encontro-11',
+    title: 'Encontro 11',
+    subject: 'Mix de Questões 05',
+    pdfUrl: '/resolucoes/resolucao_encontro_11.pdf',
+  },
+  {
+    id: 12,
+    slug: 'encontro-12',
+    title: 'Encontro 12',
+    subject: 'Mix de Questões 06',
+    pdfUrl: '/resolucoes/resolucao_encontro_12.pdf',
+  }
+]

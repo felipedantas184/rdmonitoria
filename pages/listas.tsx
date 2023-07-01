@@ -1,12 +1,13 @@
 import Head from 'next/head'
 import Layout from '@/layout/Layout'
-import Curso from '@/components/Curso'
+import Lists from '@/components/Lists'
+
 import { useAuth } from '@/context/AuthContext'
 import { useEffect, useState } from 'react'
 import { doc, getDoc } from 'firebase/firestore'
 import fireDB from '@/firebase/initFirebase'
 
-export default function CursoPage() {
+export default function ListasPage() {
   const { user } = useAuth()
   const [userData, setUserData] = useState<any>()
   const [loading, setLoading] = useState<boolean>(true)
@@ -42,9 +43,7 @@ export default function CursoPage() {
         <meta property="twitter:image" content="/apple-touch-icon.png"/>
       </Head>
       <Layout>
-        {(!loading) && (
-          <Curso access={userData?.course} />
-        )}
+        <Lists access={userData?.lists} />
       </Layout>
     </>
   )

@@ -4,6 +4,11 @@ import PDFViewer from "@/components/PDF"
 import Layout from "@/layout/Layout"
 import Head from "next/head"
 
+import { useAuth } from '@/context/AuthContext'
+import { useEffect, useState } from 'react'
+import { doc, getDoc } from 'firebase/firestore'
+import fireDB from '@/firebase/initFirebase'
+
 export const getStaticPaths = async () => {
   const paths = ListasData.map(item => {
     return {
@@ -27,6 +32,23 @@ export const getStaticProps = async ({ params }: any) => {
 }
 
 export default function PDFPage({lista}:any) {
+  const { user } = useAuth()
+  const [userData, setUserData] = useState<any>()
+  const [loading, setLoading] = useState<boolean>(true)
+
+  useEffect(() => {
+    async function getUser() {
+      if (user !== null) {
+        const data = await getDoc(doc(fireDB, "users", user?.uid));
+        const userData = data.data()
+        setUserData(userData)
+        setLoading(false)
+      }
+    }
+
+    getUser()
+  }, [user])
+
   return (
     <>
       <Head>
@@ -45,7 +67,9 @@ export default function PDFPage({lista}:any) {
         <meta property="twitter:image" content="/apple-touch-icon.png" />
       </Head>
       <Layout>
-        <PDFViewer lista={lista} />
+        {(!loading) && (
+          <PDFViewer lista={lista} access={userData?.lists} />
+        )}      
       </Layout>
     </>
   );

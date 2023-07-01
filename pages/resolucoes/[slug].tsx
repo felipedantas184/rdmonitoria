@@ -1,5 +1,6 @@
 import Aula from "@/components/Aula"
-import { CursoData } from "@/components/Curso/CursoData"
+import { ResolucoesData } from "@/components/Curso/CursoData"
+import PDFViewer from "@/components/PDF"
 import Layout from "@/layout/Layout"
 import Head from "next/head"
 
@@ -10,7 +11,7 @@ import fireDB from '@/firebase/initFirebase'
 
 
 export const getStaticPaths = async () => {
-  const paths = CursoData.map(item => {
+  const paths = ResolucoesData.map(item => {
     return {
       params: { slug: item.slug }
     }
@@ -23,15 +24,15 @@ export const getStaticPaths = async () => {
 }
 
 export const getStaticProps = async ({ params }: any) => {
-  const item = CursoData.filter((item: any) => item.slug == params.slug)
+  const item = ResolucoesData.filter((item: any) => item.slug == params.slug)
 
   return {
-    props: { aula: item[0] },
+    props: { lista: item[0] },
     revalidate: 1
   }
 }
 
-export default function AulaPage({ aula }: any) {
+export default function PDFPage({ lista }: any) {
   const { user } = useAuth()
   const [userData, setUserData] = useState<any>()
   const [loading, setLoading] = useState<boolean>(true)
@@ -68,8 +69,8 @@ export default function AulaPage({ aula }: any) {
       </Head>
       <Layout>
         {(!loading) && (
-          <Aula aula={aula} access={userData?.course} />
-        )}
+          <PDFViewer lista={lista} access={userData?.lists} />
+        )}      
       </Layout>
     </>
   );
