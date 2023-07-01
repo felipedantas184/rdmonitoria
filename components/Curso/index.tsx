@@ -2,7 +2,7 @@ import Image from "next/image";
 import { Authors, CSubtitle, CTitle, Class, ClassHeading, Classes, ContentBox, First, Fixed, GTitle, ImageWrapper, Info, MoreButton, PreviewBox, Second, Section, Subtitle, Title, Wrapper } from "./CursoStyles";
 import { FaPlayCircle, FaVideo } from "react-icons/fa";
 import Link from "next/link";
-import { CursoData, ListasData } from "./CursoData";
+import { CursoData, ListasData, ResolucoesData, SlidesData } from "./CursoData";
 import { BsFiletypePdf, BsJournalBookmarkFill, BsPencilSquare } from "react-icons/bs";
 import { useState, useEffect } from "react";
 import { useRouter } from "next/router";
@@ -110,7 +110,7 @@ const Curso = ({ access }: any) => {
               </div>
               {(!showAllMaterials) ? (
                 <Classes>
-                  {ListasData.slice(0, 5).map((item: any) => (
+                  {SlidesData.slice(0, 5).map((item: any) => (
                     <Class key={item?.id} >
                       <ClassHeading>
                         <CTitle>{item?.title}</CTitle>
@@ -123,13 +123,13 @@ const Curso = ({ access }: any) => {
                 </Classes>
               ) : (
                 <Classes>
-                  {ListasData.map((item: any) => (
+                  {SlidesData.map((item: any) => (
                     <Class key={item?.id} >
                       <ClassHeading>
                         <CTitle>{item?.title}</CTitle>
                         <CSubtitle>{item?.subject}</CSubtitle>
                       </ClassHeading>
-                      <Link href={`/listas/${item?.slug}`} ><BsFiletypePdf size={32} color="#240046" /></Link>
+                      <Link href={`/slides/${item?.slug}`} ><BsFiletypePdf size={32} color="#240046" /></Link>
                     </Class>
                   ))}
                   <MoreButton onClick={() => setShowAllMaterials(!showAllMaterials)}>Ver Menos</MoreButton>
@@ -143,7 +143,7 @@ const Curso = ({ access }: any) => {
               </div>
               {(!showAllMaterials) ? (
                 <Classes>
-                  {ListasData.slice(0, 5).map((item: any) => (
+                  {ResolucoesData.slice(0, 5).map((item: any) => (
                     <Class key={item?.id} >
                       <ClassHeading>
                         <CTitle>{item?.title}</CTitle>
@@ -156,7 +156,7 @@ const Curso = ({ access }: any) => {
                 </Classes>
               ) : (
                 <Classes>
-                  {ListasData.map((item: any) => (
+                  {ResolucoesData.map((item: any) => (
                     <Class key={item?.id} >
                       <ClassHeading>
                         <CTitle>{item?.title}</CTitle>
