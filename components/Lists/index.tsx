@@ -98,7 +98,7 @@ const Lists = ({ access }: any) => {
                         <CTitle>{item?.title}</CTitle>
                         <CSubtitle>{item?.subject}</CSubtitle>
                       </ClassHeading>
-                      <Link href={`/listas/${item?.slug}`} ><BsFiletypePdf size={32} color="#240046" /></Link>
+                      <Link href={`/resolucoes/${item?.slug}`} ><BsFiletypePdf size={32} color="#240046" /></Link>
                     </Class>
                   ))}
                   <MoreButton onClick={() => setShowAllMaterials(!showAllMaterials)}>Ver Menos</MoreButton>
