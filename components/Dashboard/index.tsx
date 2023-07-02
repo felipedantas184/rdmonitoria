@@ -62,7 +62,7 @@ const Dashboard = () => {
                 <DText>Curso Matemática Ativa</DText>
                 <FaTimesCircle size={32} color="#b33e0c" />
               </Details>
-              <AText>Carregando</AText>
+              <AText>Carregando...</AText>
             </Card>
           )}
 

@@ -7,7 +7,7 @@ import { useState, useEffect } from "react";
 
 pdfjs.GlobalWorkerOptions.workerSrc = `//unpkg.com/pdfjs-dist@${pdfjs.version}/build/pdf.worker.min.js`;
 
-const PDFViewer = ({ lista }: any, { access }: any) => {
+const PDFViewer = ({ lista, access }: any) => {
   const router = useRouter()
 
   const [numPages, setNumPages] = useState(0)
@@ -28,8 +28,6 @@ const PDFViewer = ({ lista }: any, { access }: any) => {
     }
   }
 
-  console.log(access)
-
   useEffect(() => {
     if (access === "denied") {
       router.push('/')
@@ -43,12 +41,15 @@ const PDFViewer = ({ lista }: any, { access }: any) => {
           <Title>{lista?.title}</Title>
           <Subtitle>{lista?.subject}</Subtitle>
         </Heading>
+        {(access === "confirmed") ? (
           <DocWrapper>
             <StyledDoc file={lista?.pdfUrl} onLoadSuccess={onDocumentLoadSucess}>
               <StyledPage width={580} scale={pageScale} renderAnnotationLayer={false} renderTextLayer={false} pageNumber={pageNumber} />
               <StyledPageMobile width={320 / 1.2} scale={pageScale} renderAnnotationLayer={false} renderTextLayer={false} pageNumber={pageNumber} />
             </StyledDoc>
           </DocWrapper>
+        ) : (<></>)
+        }
         <Controls>
           <CButton onClick={prevPage} disabled={pageNumber === 1}>Anterior</CButton>
           <p>{pageNumber}/{numPages}</p>
