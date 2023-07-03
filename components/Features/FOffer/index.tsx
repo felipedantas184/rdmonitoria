@@ -1,7 +1,27 @@
 import { FaCheck } from "react-icons/fa";
 import { ButtonLink, GridWrapper, HalfUnicWrapper, ListItem, OfferContainer, OfferHeading, OfferPricingCurrency, OfferPricingCurrencyOlder, OfferPricingFigure, OfferPricingFigureOlder, OfferPricingList, OfferPricingNumber, OfferPricingNumberOlder, OfferSubtitle, OfferTextWrapper, Topline, ToplineTwo } from "./FOfferStyles";
+import { sendContactForm } from "@/lib/api";
 
 const FOffer = () => {
+
+	const NovoInteressado = async (e: any) => {
+		sendContactForm({
+			name: 'Novo Interessado - Curso',
+			email: 'felipedantas184@gmail.com',
+			subject: 'Clique em link de compra!',
+			observations: 'Novo interessado no curso'
+		})
+	}
+
+	const NovoInteressadoListas = async (e: any) => {
+		sendContactForm({
+			name: 'Novo Interessado - Listas',
+			email: 'felipedantas184@gmail.com',
+			subject: 'Clique em link de compra!',
+			observations: 'Novo interessado nas listas'
+		})
+	}
+
 	return (
 		<OfferContainer id="inscricao" >
 			<GridWrapper>
@@ -31,7 +51,7 @@ const FOffer = () => {
 								<ListItem><FaCheck size={14} color="#D1D1D1" style={{ marginRight: 6 }} />Acompanhamento</ListItem>
 							</OfferPricingList>
 
-							<ButtonLink href="https://mpago.la/2xvqu6A" rel="noreferrer" target="_blank">
+							<ButtonLink onClick={NovoInteressado} href="https://mpago.la/2xvqu6A" rel="noreferrer" target="_blank">
 								Fazer Inscrição Agora!
 							</ButtonLink>
 						</div>
@@ -59,7 +79,7 @@ const FOffer = () => {
 								<ListItem><FaCheck size={14} color="#D1D1D1" style={{ marginRight: 6 }} />Resoluções</ListItem>
 							</OfferPricingList>
 
-							<ButtonLink href="http://mpago.la/2Z3Cyng" rel="noreferrer" target="_blank">
+							<ButtonLink onClick={NovoInteressadoListas} href="http://mpago.la/2Z3Cyng" rel="noreferrer" target="_blank">
 								Fazer Inscrição Agora!
 							</ButtonLink>
 						</div>
