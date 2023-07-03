@@ -16,8 +16,8 @@ export const CoursesPerksList = [
 	{
 		id: 3,
 		icon: <FaCalendarDay size={50} color="#411551" />,
-		title: 'Encontros Semanais',
-		description: 'Acompanhamento próximo de você com intenção de te orientar nos estudos de matemática.'
+		title: 'Aulas Gravadas',
+		description: 'Aulas sobre os assuntos mais frequentes disponíveis a qualquer momento.'
 	},
 	{
 		id: 4,
