@@ -73,10 +73,8 @@ const FOffer = () => {
 							<OfferPricingList>
 								<ListItem><FaCheck size={14} color="#D1D1D1" style={{ marginRight: 6 }} />12 Listas</ListItem>
 								<ListItem><FaCheck size={14} color="#D1D1D1" style={{ marginRight: 6 }} />Muitas Questões</ListItem>
-								<ListItem><FaCheck size={14} color="#D1D1D1" style={{ marginRight: 6 }} />Planejamento</ListItem>
-								<ListItem><FaCheck size={14} color="#D1D1D1" style={{ marginRight: 6 }} />Organização</ListItem>
+								<ListItem><FaCheck size={14} color="#D1D1D1" style={{ marginRight: 6 }} />Resoluções PDF</ListItem>
 								<ListItem><FaCheck size={14} color="#D1D1D1" style={{ marginRight: 6 }} />Zero enrolação</ListItem>
-								<ListItem><FaCheck size={14} color="#D1D1D1" style={{ marginRight: 6 }} />Resoluções</ListItem>
 							</OfferPricingList>
 
 							<ButtonLink onClick={NovoInteressadoListas} href="http://mpago.la/2Z3Cyng" rel="noreferrer" target="_blank">
