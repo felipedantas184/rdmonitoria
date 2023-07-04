@@ -17,6 +17,7 @@ const SignUp = () => {
     password: '',
     name: '',
     cpf: '',
+    phone: '',
   })
 
   const handleSignup = async (e: any) => {
@@ -27,6 +28,7 @@ const SignUp = () => {
           name: data.name,
           cpf: data.cpf,
           email: data.email,
+          phone: data.phone,
           course: 'denied',
           lists: 'denied',
           admin: false,
@@ -79,6 +81,18 @@ const SignUp = () => {
                 })
               }
               value={data.cpf}
+            />
+          </FGroup>
+          <FGroup>
+            <Label>Telefone (Ex: 86999811562)</Label>
+            <Input type='number' placeholder="Digite seu telefone" required
+              onChange={(e) =>
+                setData({
+                  ...data,
+                  phone: e.target.value,
+                })
+              }
+              value={data.phone}
             />
           </FGroup>
           <FGroup>
