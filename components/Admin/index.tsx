@@ -53,27 +53,29 @@ const Admin = ({ users }: any) => {
       <Wrapper>
         <Heading>
           <Title>Administração</Title>
-          <Subtitle>Você está vendo as reservas referentes a</Subtitle>
+          <Subtitle>Você está vendo os alunos cadastrados na plataforma</Subtitle>
         </Heading>
         <TableWrapper>
           <Table>
             <TableHeader>
-              <HeaderItem>Nome</HeaderItem>
+              <HeaderItemSmall>Nome</HeaderItemSmall>
               <HeaderItem>E-mail</HeaderItem>
-              <HeaderItem>CPF</HeaderItem>
-              <HeaderItem>Curso</HeaderItem>
-              <HeaderItem>Listas</HeaderItem>
-              <HeaderItemSmall>Ação</HeaderItemSmall>
+              <HeaderItemSmall>Telefone</HeaderItemSmall>
+              <HeaderItemSmall>CPF</HeaderItemSmall>
+              <HeaderItemSmall>Curso</HeaderItemSmall>
+              <HeaderItemSmall>Listas</HeaderItemSmall>
+              <HeaderItemSmall style={{flex: 0.5}}>Ação</HeaderItemSmall>
             </TableHeader>
 
             {users.map((item: any) => (
               <TableRow key={item.id} >
-                <TableItem>{item.name}</TableItem>
+                <TableItemSmall>{item.name}</TableItemSmall>
                 <TableItem>{item.email}</TableItem>
-                <TableItem>{item.cpf}</TableItem>
-                <TableItem>{item.course}</TableItem>
-                <TableItem>{item.lists}</TableItem>
-                <TableItemSmall style={{ gap: 8 }}>
+                <TableItemSmall>{item.phone}</TableItemSmall>
+                <TableItemSmall>{item.cpf}</TableItemSmall>
+                <TableItemSmall>{item.course}</TableItemSmall>
+                <TableItemSmall>{item.lists}</TableItemSmall>
+                <TableItemSmall style={{ gap: 8, flex: 0.5 }}>
                   <FaEdit style={{ cursor: 'pointer' }} size={16} color={'#C4C4C4'} onClick={() => accessEdit(item)}/>
                 </TableItemSmall>
               </TableRow>

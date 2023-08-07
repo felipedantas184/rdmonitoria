@@ -99,6 +99,9 @@ export const TableItem = styled.div`
   justify-content: center;
   align-items: center;
   text-align: center;
+
+  overflow: hidden;
+  text-overflow: clip;
 `
 export const TableItemSmall = styled.div`
   flex: 1;
@@ -109,4 +112,7 @@ export const TableItemSmall = styled.div`
   justify-content: center;
   align-items: center;
   text-align: center;
+
+  overflow: hidden;
+  text-overflow: clip;
 `
